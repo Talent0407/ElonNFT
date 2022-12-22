@@ -182,56 +182,56 @@ function HomePage() {
               <div className="col-4 col-sm-3 mb-3">
                 <img
                   className="img-fluid rounded-1 shadow"
-                  src="img/elon-1.jpg"
+                  src="img/elon-1.png"
                   alt="elon"
                 />
               </div>
               <div className="col-4 col-sm-3 mb-3">
                 <img
                   className="img-fluid rounded-1 shadow"
-                  src="img/elon-2.jpg"
+                  src="img/elon-2.png"
                   alt="elon"
                 />
               </div>
               <div className="col-4 col-sm-3 mb-3">
                 <img
                   className="img-fluid rounded-1 shadow"
-                  src="img/elon-3.jpg"
+                  src="img/elon-3.png"
                   alt="elon"
                 />
               </div>
               <div className="col-4 col-sm-3 mb-3">
                 <img
                   className="img-fluid rounded-1 shadow"
-                  src="img/elon-4.jpg"
+                  src="img/elon-4.png"
                   alt="elon"
                 />
               </div>
               <div className="col-4 col-sm-3 mb-3">
                 <img
                   className="img-fluid rounded-1 shadow"
-                  src="img/elon-5.jpg"
+                  src="img/elon-5.png"
                   alt="elon"
                 />
               </div>
               <div className="col-4 col-sm-3 mb-3">
                 <img
                   className="img-fluid rounded-1 shadow"
-                  src="img/elon-6.jpg"
+                  src="img/elon-6.png"
                   alt="elon"
                 />
               </div>
               <div className="col-4 col-sm-3 mb-3">
                 <img
                   className="img-fluid rounded-1 shadow"
-                  src="img/elon-7.jpg"
+                  src="img/elon-7.png"
                   alt="elon"
                 />
               </div>
               <div className="col-4 col-sm-3 mb-3">
                 <img
                   className="img-fluid rounded-1 shadow"
-                  src="img/elon-8.jpg"
+                  src="img/elon-8.png"
                   alt="elon"
                 />
               </div>
