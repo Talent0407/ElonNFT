@@ -52,8 +52,9 @@ function HomePage() {
   const { write, isLoading, isError, isSuccess } = useContractWrite(config);
 
   useEffect(() => {
+    console.log("---------------- called connect --------------")
     connect();
-  }, []);
+  }, [isConnected]);
 
   const handleAuth = async () => {
     if (connectWallet) {
@@ -112,6 +113,7 @@ function HomePage() {
      * instead of using signIn(..., redirect: "/user")
      * we get the url from callback and push it to the router to avoid page refreshing
      */
+    setConnect(true)
     onClose();
   };
 
