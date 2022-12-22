@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,700;0,800;0,900;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.font-1 {
+    font-family: "Exo", "Courier New", monospace !important;
+}
+
+.elon {
+    font-family: "Exo", "Courier New", monospace !important;
+    font-weight: 700 !important;
+    font-style: italic;
+    transition: all 0.5s ease-in-out;
+}
+
+.elon:hover {
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.3) !important;
+}
+
+html,
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+a {
+    color: unset !important;
+    text-decoration: none !important;
+}
+
+small {
+    font-size: 0.8em !important;
+}
+
+.cursor-pointer:hover {
+    cursor: pointer;
+}
+
+.bg {
+    /* background: url("../public/img/bg.png") no-repeat center center fixed; */
+    background: url("/img/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    /* move image */
+    /* overflow: hidden; */
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: fixed;
+}
+
+@media (max-width: 600px) {
+    .bg {
+        background-position: 21%;
+    }
+}
+
+.text-elon-primary {
+    color: #DA4302 !important;
+}
+
+.gallery img {
+    border: 2px solid white;
+    transition: all 0.5s ease-in-out;
+}
+
+.gallery img:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+}
+
+.mint {
+    padding: 0.5em 1.5em;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    text-decoration: none;
+    color: #DA4302 !important;
+    box-sizing: border-box;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: 0.3s;
+    border: 4px solid #008000;
+    border-image-source: linear-gradient(to right, #016062 0%, #4a5e8c 44%, #4a5e8c 49%, #4a5e8c 57%, #744a9e 100%);
+    border-image-slice: 4;
+    overflow: hidden;
+}
+
+.mint:hover {
+    color: #fff !important;
+}
+
+.mint:hover:after {
+    width: 120%;
+}
+
+.mint:after {
+    content: "";
+    position: absolute;
+    transition: 0.3s;
+    content: '';
+    width: 0;
+    bottom: -1px;
+    background: linear-gradient(to right, #016062 0%, #4a5e8c 44%, #4a5e8c 49%, #4a5e8c 57%, #744a9e 100%);
+    height: 32px;
+    left: -10%;
+    transform: skewX(15deg);
+    z-index: -1;
+}
+
+.mint_container{
+    max-width: 360px;
+    margin: auto;
+}
+
+.on-hover-zoom:hover {
+    transform: scale(1.05) !important;
+    transition: all 0.3s;
+}
